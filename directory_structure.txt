@@ -1,0 +1,27 @@
+.
+├── data
+│   ├── GTA
+│   │   ├── image_02 -> <path/to/GTA_Dataset>/image_02/
+│   │   └── label_02 -> <path/to/GTA_Dataset>/label_02/
+│   └── KITTI
+│       └── training
+│           ├── image_02 -> <path/to/KITTI Dataset>/training/image_02/
+│           └── label_02 -> <path/to/KITTI_Dataset>/training/label_02/
+├── lib
+│   └── ...
+├── LICENSE
+├── MDP_Tracking
+│   └── ...
+├── README.md
+└── results
+    ├── GTA
+    │   └── dets
+    │       ├── 0000.txt
+    │       ├── ...
+    │       └── 0103.txt
+    └── KITTI
+        └── training
+            └── dets
+                ├── 0000.txt
+                ├── ...
+                └── 0020.txt
