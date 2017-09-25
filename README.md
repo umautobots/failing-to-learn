@@ -52,7 +52,7 @@ ln -s <path/to/GTA_Tracking_Dataset>/label_02 label_02
 4. Use the trained object detector to make predictions for the KITTI training dataset as well as the GTA dataset in the KITTI tracking dataset format and place them in the results folder as shown below. For convenience, we provide the predictions made by an RRC object detector (Drive link: https://goo.gl/2UKwKQ).
 5. You should now have a folder structure such as in `directory_structure.txt`
 6. Compile MDP tracker by running `$REPO/MDP_Tracking/compile.m`
-7. Run the script `$REPO/lib/test_failing_to_learn.m`. This is a simple script that invokes the necessary scripts in sequence. 
+7. Run the script `$REPO/lib/test_failing_to_learn.m`. This is a simple script that invokes the necessary scripts in sequence. The results do not exactly match those in the paper as this is a slightly different code, but you should get close to the reported numbers. 
 
 **Note:** This script will potentially take an entire day to process all the data. The MDP Tracker creates a custom data structure to store images in `.mat` files and store them inside `$REPO/MDP_Tracking/results_kitti/data` folder. In our experiments, this folder alone has a size of `~1TB`. You can use symlinks to store this data in a different disk while maintaining the same folder structure. The final results will be placed in `$REPO/results/GTA/false_negatives`. 
 
