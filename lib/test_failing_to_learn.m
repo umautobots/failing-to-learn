@@ -38,10 +38,10 @@ function test_failing_to_learn
         return
     end
     
-%     % Train forward MDP Tracker on KITTI dataset
-%     model = TrackerModel.fwd_kitti;
-%     dataset = Dataset.kitti_train;
-%     KITTI_train(model, dataset);
+    % Train forward MDP Tracker on KITTI dataset
+    model = TrackerModel.fwd_kitti;
+    dataset = Dataset.kitti_train;
+    KITTI_train(model, dataset);
     
     % prepare backwards KITTI dataset
     dataset_bac = Dataset.kitti_train_backwards;
