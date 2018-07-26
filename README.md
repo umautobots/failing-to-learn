@@ -8,7 +8,7 @@ The paper presents a method to identify false negatives made by single frame
 object detectors on unlabeled datasets. Our paper has been accepted in RA-L and will be presented 
 at IROS 2018 in Madrid, Spain. For more details, 
 please refer to our published paper in IEEE Xplore (https://ieeexplore.ieee.org/document/8412512/) or
-the accepted version in arxiv(https://arxiv.org/pdf/1707.00051.pdf).
+the accepted version in arxiv(https://arxiv.org/abs/1707.00051).
 
 ### License
 
