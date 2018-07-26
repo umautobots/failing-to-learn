@@ -30,7 +30,7 @@ If you find this paper or data helpful, please consider citing:
 
 ### GTA Dataset
 
-We also release a new tracking dataset with 104 sequences totaling 80,655 labeled pairs of stereo images from a game engine along with ground truth disparity to facilitate further research. 
+We also release a new tracking dataset with 104 sequences totaling 80,655 labeled pairs of stereo images from a game engine along with ground truth disparity to facilitate further research. Note this data can only be used for non-commercial applications.
 * [Left Camera Images and Annotations](http://www.umich.edu/~fcav/GTA_Tracking_Dataset.tar.gz) (22.5GB)
 * [Right Camera Images](https://s3.us-east-2.amazonaws.com/ngv.datasets/GTA_Tracking_right_images.tar.gz) (54.5GB)
 * [Disparity Images](https://s3.us-east-2.amazonaws.com/ngv.datasets/GTA_Tracking_disparity.tar.gz) (4.8GB)
