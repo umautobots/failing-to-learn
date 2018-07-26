@@ -1,0 +1,12 @@
+results/GTA/false_negatives/stereo_cue/0000.csv
+results/GTA/false_negatives/stereo_cue/0001.csv
+results/GTA/false_negatives/stereo_cue/0002.csv
+results/GTA/false_negatives/stereo_cue/0003.csv
+results/GTA/false_negatives/stereo_cue/0004.csv
+results/GTA/false_negatives/stereo_cue/0005.csv
+results/GTA/false_negatives/stereo_cue/0006.csv
+results/GTA/false_negatives/stereo_cue/0007.csv
+results/GTA/false_negatives/stereo_cue/0008.csv
+results/GTA/false_negatives/stereo_cue/0009.csv
+results/GTA/false_negatives/stereo_cue/0010.csv
+results/GTA/false_negatives/stereo_cue/0011.csv

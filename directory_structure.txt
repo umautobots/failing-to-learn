@@ -2,26 +2,60 @@
 ├── data
 │   ├── GTA
 │   │   ├── image_02 -> <path/to/GTA_Dataset>/image_02/
+│   │   ├── image_03 -> <path/to/GTA_Dataset>/image_03/
 │   │   └── label_02 -> <path/to/GTA_Dataset>/label_02/
 │   └── KITTI
-│       └── training
+│       ├── training
+│       │   ├── image_02 -> <path/to/KITTI Dataset>/training/image_02/
+│       │   ├── image_03 -> <path/to/KITTI Dataset>/training/image_03/
+│       │   └── label_02 -> <path/to/KITTI_Dataset>/training/label_02/
+│       └── testing
 │           ├── image_02 -> <path/to/KITTI Dataset>/training/image_02/
-│           └── label_02 -> <path/to/KITTI_Dataset>/training/label_02/
-├── lib
+│           └── image_03 -> <path/to/KITTI Dataset>/training/image_03/
+├── scripts
+│   └── ...
+├── src
 │   └── ...
 ├── LICENSE
-├── MDP_Tracking
-│   └── ...
 ├── README.md
 └── results
     ├── GTA
-    │   └── dets
+    │   ├── dets
+    │   │   ├── 0000.txt
+    │   │   ├── ...
+    │   │   └── 0103.txt
+    │   ├── dets_right
+    │   │   ├── 0000.txt
+    │   │   ├── ...
+    │   │   └── 0103.txt
+    │   └── tracks
     │       ├── 0000.txt
     │       ├── ...
     │       └── 0103.txt
     └── KITTI
-        └── training
-            └── dets
+        ├── training
+        │   ├── dets
+        │   │   ├── 0000.txt
+        │   │   ├── ...
+        │   │   └── 0020.txt
+        │   ├── dets_right
+        │   │   ├── 0000.txt
+        │   │   ├── ...
+        │   │   └── 0020.txt
+        │   └── tracks
+        │       ├── 0000.txt
+        │       ├── ...
+        │       └── 0020.txt
+        └── testing
+            ├── dets
+            │   ├── 0000.txt
+            │   ├── ...
+            │   └── 0020.txt
+            ├── dets_right
+            │   ├── 0000.txt
+            │   ├── ...
+            │   └── 0020.txt
+            └── tracks
                 ├── 0000.txt
                 ├── ...
                 └── 0020.txt
