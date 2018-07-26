@@ -5,8 +5,9 @@ by Manikandasriram S.R. and Cyrus Anderson at [UM FCAV](https://fcav.engin.umich
 ### Introduction
 
 The paper presents a method to identify false negatives made by single frame
-object detectors on unlabeled datasets. For more details, 
-please refer to our paper in IEEE Xplore (https://ieeexplore.ieee.org/document/8412512/) or
+object detectors on unlabeled datasets. Our paper has been accepted in RA-L and will be presented 
+at IROS 2018 in Madrid, Spain. For more details, 
+please refer to our published paper in IEEE Xplore (https://ieeexplore.ieee.org/document/8412512/) or
 the accepted version in arxiv(https://arxiv.org/pdf/1707.00051.pdf).
 
 ### License
@@ -18,11 +19,12 @@ Failing to Learn code is released under the MIT License (refer to the LICENSE fi
 If you find this paper or data helpful, please consider citing:
 
 ```
-@article{srinivasan2017failing,
+@article{srinivasanramanagopal2018failing, 
     title={Failing to Learn: Autonomously Identifying Perception Failures for Self-driving Cars}, 
-    author={Srinivasan Ramanagopal, Manikandasriram and Anderson, Cyrus and Vasudevan, Ram and Johnson-Roberson, Matthew},	
-    journal={arXiv preprint arXiv:1707.00051},
-    year={2017}
+    author={M. Srinivasan Ramanagopal and C. Anderson and R. Vasudevan and M. Johnson-Roberson}, 
+    journal={IEEE Robotics and Automation Letters}, 
+    year={2018}, 
+    doi={10.1109/LRA.2018.2857402}, 
 }
 ```
 
@@ -48,7 +50,7 @@ export FAILING_TO_LEARN=</path/to/failing-to-learn>
 
 2. Download and extract the GTA dataset (from above) and [KITTI tracking dataset](http://www.cvlibs.net/datasets/kitti/eval_tracking.php) into folder named `data` as shown below. 
 
-3. For reproducing the results from our paper, we provide the `results` folder with detections and tracks (constructed using MDP Tracker) for the GTA and KITTI tracking datasets. You can replace this with your own detections and tracks in the KITTI tracking format. 
+3. For reproducing the results from our paper, we provide the `results` folder [here](https://drive.google.com/file/d/1e7tjhQL4eEpTmEWmRC77zEMrAONDp6Jq/view?usp=sharing) with detections and tracks (constructed using MDP Tracker) for the GTA and KITTI tracking datasets. You can replace this with your own detections and tracks in the KITTI tracking format. 
 
 The resulting folder structure should look as follows:
 
