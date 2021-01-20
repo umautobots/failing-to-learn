@@ -10,6 +10,14 @@ at IROS 2018 in Madrid, Spain. For more details,
 please refer to our published paper in IEEE Xplore (https://ieeexplore.ieee.org/document/8412512/) or
 the accepted version in arxiv(https://arxiv.org/abs/1707.00051).
 
+### Note on evaluation
+
+The performance of the detectors were evaluated on the KITTI dataset using their evaluation kit. 
+That program additionally places limits on the max truncation and max occlusion levels of labels
+to be included for evaluation apart from the minimum height of 25px reported in the paper. The
+numbers in the paper correspond to the moderate evaluation level, which is the default level used
+to rank entries in the KITTI benchmark.
+
 ### License
 
 Failing to Learn code is released under the MIT License (refer to the LICENSE file for details)
